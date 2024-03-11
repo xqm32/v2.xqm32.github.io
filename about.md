@@ -14,7 +14,7 @@ Hi there👋, welcome to Qiming's Blog. I'm Qiming Xu, currently learning [Kuber
 ## Friends
 
 - [<font color=pink>RedContritio</font>](https://redcontritio.github.io/)
-- [YKgsmUDq](http://ykgsmudq.com/)
+- [YKgsmUDq](http://ykgsmudq.github.io/)
 - [<font color=lightblue>inko</font>](https://inko.lv/)
 - [WhiteTraveller](https://whitetraveller.github.io/)
 - [CenShell](https://hfut-xyc.github.io/)
