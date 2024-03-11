@@ -29,6 +29,9 @@ github_username: xqm32
 
 # Build settings
 theme: minima
+show_excerpts: true
+header_pages:
+  - about.md
 plugins:
   - jekyll-feed
 # Exclude from processing.
