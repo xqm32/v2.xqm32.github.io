@@ -31,3 +31,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll
+# Note: If you've installed Ruby 3.0 or later (which you may have if you installed the default
+# version via Homebrew), you might get an error at this step. That's because these versions
+# of Ruby no longer come with webrick installed.
+gem "webrick", "~> 1.8"
