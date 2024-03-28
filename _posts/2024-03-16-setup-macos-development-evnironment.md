@@ -22,26 +22,23 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 eval "$(starship init zsh)"
 eval "$(atuin init zsh --disable-up-arrow)"
+
+alias ll="eza -l"
+alias tree="eza -T"
+alias python=".venv/bin/python"
+alias pip="uv pip"
 ```
 
 `.zprofile`:
 
 ```sh
-# Proxy
-export https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897 all_proxy=socks5://127.0.0.1:7897
-
-# Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
-
-# Local
-export PATH="$HOME/.local/bin:$PATH"
-
-# Rust
 . "$HOME/.cargo/env"
 
-# Volta
+export PATH="$HOME/go/bin:$PATH"
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 ```
 
 ## Reference
